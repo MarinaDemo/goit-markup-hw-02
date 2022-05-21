@@ -1,0 +1,263 @@
+.body{
+font-family: 'Roboto';
+font-style: normal;  
+}
+.main-menu{
+ display: flex;   
+ position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.webstudio{
+    display:inline;
+    position: absolute;
+    text-decoration: none;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo{
+display: flex;
+ color:    #212121; 
+}
+.navig{
+    margin: 0 50px;
+    display: flex;
+    position: absolute;
+width: 294px;
+height: 16px;
+left: 453px;
+top: 32px;
+}
+.studio-color{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em; 
+    color: #2196F3;       
+}
+.navig>li>a{
+    font-family: 'Roboto';
+font-style: normal;
+    margin: 0 50px;
+    display: flex;
+    text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.mail>a{
+    margin-right: 50px;
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+color: #2196F3
+}
+.phone>a{
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+color: #757575;
+}
+.effect{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+margin: bottom 94px;
+}
+.effect>h1{
+    font-family: 'Roboto';
+font-style: normal;
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.oder{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    color-adjust: #2196F3;    
+}
+.oder-buttom{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.buttom-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;  
+}
+.we-better{
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;  
+    display:flex; 
+}
+.we-better-a{
+    width: 270px;
+    color: #212121;
+    margin: bottom 10px;
+}
+.we-better-b{
+  color:  #757575  
+}
+.we-do{
+width: 1170px;  
+margin: auto;
+}
+.we-do>h2{
+    position: absolute;
+    font-family: 'Roboto';
+font-style: normal;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;       
+}
+.we-do>h2.ul{
+margin: bottom 50px;
+}
+.we-do-a{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;   
+}
+.we-do-b{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;   
+}
+.we-do-c{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;   
+}
+.our-team{
+width: 1600px;
+margin: auto;
+background: #F5F4FA;   
+}
+.our-team>h2{
+    font-family: 'Roboto';
+font-style: normal;
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1543px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+.our-team>ul{
+    position: absolute;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;  
+    display: flex;
+}
+.our-team>h2>ul>li>h3{
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 275px;
+    top: 1925px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em; 
+    color: #212121;
+}
+
+.foot{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px; 
+    background-color: #2F303A;  
+}
+.foot-web{
+margin-top: 60px;
+margin: bottom 20px;    
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.footer-address>ul>li>a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6)     
+}
