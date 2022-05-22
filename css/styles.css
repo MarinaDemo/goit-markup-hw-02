@@ -286,7 +286,8 @@ color: #aaa;
     left: 495px;
     top: 174px;  */
    }
-   .menu-we-do :hover{background-color: #2196F3;}  
+   .menu-we-do :hover{background-color: #2196F3; color: #fff;}  
+   .menu-we-do :focus{background-color: #2196F3; color: #fff;}  
    .menu-we-do li {display: inline-block;}  
    .name-foto{
 width: 322px;
@@ -301,9 +302,12 @@ color: #757575;
     display: flex;  
    }
    .foto>ul>li{
-       display: inline;
+       display: flex;
    }
 ul {list-style-type: none;}
 a {text-decoration: none;}
-a:hover {text-decoration-line: underline;}
-button {cursor: pointer;}
+a:hover {text-decoration-line: none; color: #fff;}
+a:focus {text-decoration-line: none; color: #fff;}
+button {cursor: pointer; }
+.studio-color.current {color: #2196F3;}
+.button-type{ background-color:  #2196F3; accent-color:#2196F3 ; color: #fff;}
