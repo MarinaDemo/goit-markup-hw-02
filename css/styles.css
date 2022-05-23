@@ -151,6 +151,7 @@ margin: auto;
     position: absolute;
     font-family: 'Roboto';
 font-style: normal;
+margin: bottom 50px
     width: 376px;
     height: 42px;
     left: 612px;
@@ -195,6 +196,7 @@ background: #F5F4FA;
     font-family: 'Roboto';
 font-style: normal;
     position: absolute;
+    margin: bottom 50px
     width: 264px;
     height: 42px;
     left: 668px;
@@ -227,18 +229,26 @@ font-style: normal;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em; 
-    color: #212121;
+    color: #757575;
 }
 .foot{
     position: absolute;
     width: 1600px;
     height: 252px;
     left: 0px;
-    top: 2097px; 
+    top: 1628px; 
     background-color: #2F303A;
     padding-left: 10%;
 }
-
+.foot-index{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px; 
+    background-color: #2F303A;
+    padding-left: 10%;  
+}
 .foot-web{
 /*margin-top: 160px;
 margin-bottom: 20px;    
@@ -298,11 +308,13 @@ width: 322px;
 color: #757575;
    }
    .foto{
-    margin: 262px 215px 346px 215px;   
-    display: flex;  
+    margin: o auto;  
+    display: inline-block;
+     
    }
    .foto>ul>li{
-       display: flex;
+       display: inline-block;
+       margin-bottom: 30px;
    }
 ul {list-style-type: none;}
 a {text-decoration: none;}
